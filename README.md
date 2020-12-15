@@ -10,11 +10,11 @@
 
 - previous repo [punctuation-restoration-pytorch](https://github.com/yuboona/punctuation-restoration-pytorch)
 
-Previous work consists a simple BiLSTM network for punctuation restoration. We then tried integrating CNN with the BiLSTM and attention. However, CNN and Attention didn't show any improvement for Chinese Punctation. A seq to seq mechanism also performed baddly on Chinese punctuation task.
+Previous work consists a simple BiLSTM network for punctuation restoration. We then tried integrating CNN with the BiLSTM and attention. However, CNN and Attention didn't show any improvement for Chinese Punctation. A seq to seq mechanism also performed baddly on Chinese punctuation restoration task.
 
-**In this work, we bring the bert.But bert has been widly used in many works, for achieve a more meaningful work, I bring the insight of word-level concept in my work.**
+**In this work, we bring the bert.But bert has been widly used in many works, for acheive a more meaningful work, we bring the insight of word-level concept in our work.**
 
-**Bert and it's variants rely a character tokenizer of Chinese. Unlike English word tokenizer remaining mostly the word semantic of the english word. Chinese tokenizer just split chinese sentence into characters which always don't represent a complete semantic. It will greatly influnce the model's capability. As you can easily imaging, when a pretrained model to do a task related fine-tuning, using a character tokenizer will make model concentrating more on the character information. Some word level relation even will be forgot.**
+**Bert and it's variants rely a character tokenizer of Chinese. Unlike English word tokenizer remaining mostly the word semantic of the english word. Chinese tokenizer just split chinese sentence into characters which don't always represent a complete semantic. It will greatly influnce the model's capability. As you can easily imaging, when a pretrained model  doing a task related fine-tuning, using a character tokenizer will make model concentrating more on the character information. Some word level relation even will be forgot.**
 
 ## 2. Methods Details
 
