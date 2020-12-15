@@ -6,6 +6,24 @@
 
 ---
 
+## Requirment
+
+- Required package.
+
+```python
+torch==1.1.0
+numpy==1.19.4
+scikit_learn==0.23.2
+tqdm==4.54.1
+transformers==4.0.1
+```
+
+- Install packages for project.
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 1. Difference from My Previous Repo
 
 - previous repo [punctuation-restoration-pytorch](https://github.com/yuboona/punctuation-restoration-pytorch)
