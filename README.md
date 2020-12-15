@@ -20,13 +20,21 @@ Previous work consists a simple BiLSTM network for punctuation restoration. We t
 
 Our model use two types features for final punctuation predictions:
 
-1. word-level features: Well designed CNN layers.
-2. Character level features: Bert outputs
+1. word-level features: Well designed CNN layers. As *Figure 1*.
+2. Character level features: Bert outputs. As *Figure 2*.
+
+|*Figure 1. Word-Level features*|
+|:-:|
+|![word_level_features](img/CNN_features.png)|
+
+|*Figure 2. Character-level features*|
+|:-:|
+|![char_level_features](img/char_level_features.png)|
 
 ## 3. Code
 
-- `train_1_to_1.py` : Training code. (train.py is the original train process in BerPunc. It use a bert outputs of 32 neighbor character to predict one character's punctuation.)
-- `data_1_to_1.py` : Helper function to read and transform data. (data.py the original data helper.)
-- **`model_1_to_1.py`** : Consists a lots of our original models. *best model-->* **BertChineseEmbSlimCNNlstmBert**. (model_1_to_1_seg.py is a model to integrated a fine-tuned bert model on segmentation task with our model.)
+- `train_1_to_1.py` : Training code. (`train.py` is the original train process in BerPunc. It use a bert outputs of 32 neighbor character to predict one character's punctuation.)
+- `data_1_to_1.py` : Helper function to read and transform data. (`data.py` the original data helper.)
+- **`model_1_to_1.py`** : Consists a lots of our original models. *best model-->* **BertChineseEmbSlimCNNlstmBert**. (`model_1_to_1_seg.py` is a model to integrated a fine-tuned bert model on segmentation task with our model.)
 - `evaluate_*.ipynb` : evaluation jupyter notebook on IWSLT Chinese test sets.
 - `./data` : Some train and test data.
