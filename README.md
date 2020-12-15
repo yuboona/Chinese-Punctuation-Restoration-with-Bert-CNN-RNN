@@ -25,7 +25,7 @@ Our model use two types features for final punctuation predictions:
 
 |*Figure 1. Word-Level features*|
 |:-:|
-|![word_level_features](img/CNN_features.png)|
+|![word_level_features](./img/CNN_features_small.png)|
 
 |*Figure 2. Character-level features*|
 |:-:|
