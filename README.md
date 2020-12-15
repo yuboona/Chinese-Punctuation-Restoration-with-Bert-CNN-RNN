@@ -56,3 +56,13 @@ Our model use two types features for final punctuation predictions:
 - **`model_1_to_1.py`** : Consists a lots of our original models. *best model-->* **BertChineseEmbSlimCNNlstmBert**. (`model_1_to_1_seg.py` is a model to integrated a fine-tuned bert model on segmentation task with our model.)
 - `evaluate_*.ipynb` : evaluation jupyter notebook on IWSLT Chinese test sets.
 - `./data` : Some train and test data.
+
+## 4. Experiments Results
+
+> **We conducted experiments on Chinese Ted talks transcripts in IWSLT2012. Besides, We also conducted on other datasets like PeopleDaliy and reading books. The results can vary. The text with good grammar can acheive better results. The voice transcripts performed lower results. There are more works to do.**
+
+- *Test results for best model `BertChineseEmbSlimCNNlstmBert` in `evaluate_iwslt-BertChineseEmbSlimCNNlstmBert.ipynb`. As follow*:
+
+|Figure 3. Experiments Results|
+|:-:|
+|![experiments_results](./img/experiments_result.png)|
