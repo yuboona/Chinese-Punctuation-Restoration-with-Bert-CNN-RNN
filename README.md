@@ -2,7 +2,7 @@
 
 ---
 
-*This repository is developed from a backbone in repo [BertPunc](https://github.com/nkrnrnk/BertPunc). Then, We impleted our original ideas of [Word-level BERT-CNN-RNN Model for Chinese Punctuation Restoration](https://none.cn)*
+*This repository is developed from a backbone in repo [BertPunc](https://github.com/nkrnrnk/BertPunc). Then, We impleted our original ideas of [Word-level BERT-CNN-RNN Model for Chinese Punctuation Restoration](https://ieeexplore.ieee.org/document/9344889)*
 
 ---
 
